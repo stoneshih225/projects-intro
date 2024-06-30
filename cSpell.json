@@ -2,6 +2,7 @@
     "words": [
         "camelcase",
         "linebreak",
+        "tsbuildinfo",
         "Vetur",
         "vite",
         "vuejs"
