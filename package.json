@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint:style": "stylelint '**/*.{html,vue,css,scss}' --fix --ignore-path .gitignore",
+    "lint:eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "lint": "pnpm run lint:eslint && pnpm run lint:style"
   },
   "dependencies": {
     "vue": "^3.4.29"
