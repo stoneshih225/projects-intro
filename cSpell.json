@@ -2,6 +2,7 @@
     "words": [
         "camelcase",
         "linebreak",
+        "nabla",
         "tsbuildinfo",
         "Vetur",
         "vite",
